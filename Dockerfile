@@ -17,5 +17,7 @@ WORKDIR /app
 # ローカル開発環境の./src配下の内容をDockerコンテナ上の/appにコピー
 COPY ./src /app
 
+EXPOSE 3000
+
 # gemファイルのインストール
 RUN bundle config --local set path 'vendor/bundle' && bundle install
