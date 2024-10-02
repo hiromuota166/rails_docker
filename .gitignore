@@ -1,0 +1,8 @@
+/src/node_modules
+/src/test
+/src/tmp
+/src/log
+/src/vendor/bundle
+
+.env
+.DS_Store
